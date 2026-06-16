@@ -345,7 +345,7 @@ export const replacements = {
 		'zlib'
 	].sort(),
 
-	NSIS_IMPORTANT: ['!addincludedir', '!addplugindir', '!appendfile', '!assert', '!cd', '!define', '!delfile', '!echo', '!error', '!execute', '!finalize', '!getdllversion', '!gettlbversion', '!include', '!insertmacro', '!makensis', '!packhdr', '!pragma', '!searchparse', '!searchreplace', '!system', '!tempfile', '!undef', '!uninstfinalize', '!verbose', '!warning'].sort(),
+	NSIS_IMPORTANT: ['!addincludedir', '!addplugindir', '!appendfile', '!appendmemfile', '!assert', '!cd', '!define', '!delfile', '!echo', '!error', '!execute', '!finalize', '!getdllversion', '!gettlbversion', '!include', '!insertmacro', '!macroundef', '!makensis', '!packhdr', '!pragma', '!searchparse', '!searchreplace', '!system', '!tempfile', '!undef', '!uninstfinalize', '!verbose', '!warning'].sort(),
 
-	NSIS_IMPORTANT_BLOCKS: ['!ifdef', '!ifndef', '!if', '!ifmacrodef', '!ifmacrondef', '!else', '!endif'].sort()
+	NSIS_IMPORTANT_BLOCKS: ['!ifdef', '!ifndef', '!if', '!ifmacrodef', '!ifmacrondef', '!else', '!elseif', '!elseifdef', '!elseifndef', '!elseifmacrodef', '!elseifmacrondef', '!endif', '!macro', '!macroend'].sort()
 };
